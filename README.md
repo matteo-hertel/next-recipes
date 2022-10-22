@@ -16,4 +16,16 @@ I don't want to reinvent the wheel, but in the few years I've been using next so
 
 ## How to use this repository
 
--- set it up first and then add content here
+The [docs site](https://next-recipes-docs.vercel.app/) will contain in-depth explanations about different recipes but some overarching points can be explained here as well
+
+The best way to learn how a feature works are to have some documentation about it _and_ see how is it implemented, Pull Request if done well is an incredible tool for learning; The code change itself is not enough, there are two key points for a great pull request:
+
+- A good PR description, to explain what the feature is all about and the problem that tries to solve
+- Inline comments are great to explain something in context with the code changed around it
+
+With that in mind this repository will follow the following conventions:
+
+- Each Recipe will have 1 pull request for the code change and will be prefixed with `[Recipe]`
+  - If multiple pull requests are needed for whatever reason, a tool like [Graphite](https://graphite.dev/) will be used to group the PR logically
+  - Each Pull Request will have some inline comments to explain concepts in the context of the code changed
+- Each Recipe will have a section in the docs to explain the feature in more depth and explain the problem that solves
