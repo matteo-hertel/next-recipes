@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Next Recipes',
   tagline: 'Production-ready example for NextJs',
-  url: 'https://github.com',
+  url: 'https://next-recipes-docs.vercel.app',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,7 +37,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/matteo-hertel/next-recipes/docs',
+            'https://github.com/matteo-hertel/next-recipes/edit/main/apps/docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -63,7 +63,7 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/matteo-hertel/next-recipes',
             label: 'GitHub',
             position: 'right',
           },
