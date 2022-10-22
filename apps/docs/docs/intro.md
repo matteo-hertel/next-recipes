@@ -22,6 +22,4 @@ With all the above installed, you're two steps away from having everything up an
 2. run `yarn dev` to bootstrap all the applications and packages
 
 The documentation site will be available at [http://localhost:3001/](http://localhost:3001/)
- and the basic web app will be available at [http://localhost:3000/](http://localhost:3000/)
-
-
+and the basic web app will be available at [http://localhost:3000/](http://localhost:3000/)

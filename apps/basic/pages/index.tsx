@@ -2,15 +2,14 @@ import { useRouter } from "next/router";
 import { useCallback } from "react";
 import { Button } from "ui";
 
-const DOCS_URL = process.env.NEXT_PUBLIC_DOCS_URL ?? 'http://localhost:3001';
+const DOCS_URL = process.env.NEXT_PUBLIC_DOCS_URL ?? "http://localhost:3001";
 
 export default function Homepage() {
   const router = useRouter();
 
   const onClick = useCallback(() => {
-    console.log(DOCS_URL)
     router.push(DOCS_URL);
-  }, [router])
+  }, [router]);
 
   return (
     <div>
