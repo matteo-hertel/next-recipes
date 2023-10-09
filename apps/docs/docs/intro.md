@@ -12,7 +12,7 @@ This monorepo is powered by [Turborepo](https://turborepo.org/) you can get all 
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
+- [Node.js](https://nodejs.org/en/download/) version 18 or above:
   - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
 - [Yarn](https://yarnpkg.com/)
 
